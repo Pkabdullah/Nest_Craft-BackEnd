@@ -1,0 +1,132 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_categories",
+  "info": {
+    "singularName": "product-category",
+    "pluralName": "product-categories",
+    "displayName": "Product-category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "living-room-furniture",
+        "bedroom-furniture",
+        "dining-room-furniture",
+        "office-furniture"
+      ],
+      "required": true
+    },
+    "product": {
+      "type": "enumeration",
+      "enum": [
+        "Sofa-Set",
+        "Bed",
+        "Dressing-Table",
+        "Dinning-Table",
+        "Corner-LShape-Sofa-Set",
+        "Bedroom-Chair",
+        "Center-Table",
+        "Wardrobe",
+        "Office-chair",
+        "Wooden-Sofa"
+      ],
+      "required": true
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "productPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description1": {
+      "type": "text"
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "Description3": {
+      "type": "text"
+    },
+    "Description4": {
+      "type": "text"
+    },
+    "Description5": {
+      "type": "text"
+    },
+    "SKU": {
+      "type": "string"
+    },
+    "Categories": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image5": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

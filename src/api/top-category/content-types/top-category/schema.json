@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_categories",
+  "info": {
+    "singularName": "top-category",
+    "pluralName": "top-categories",
+    "displayName": "Top Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "maxLength": 4000,
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Sofa Set",
+        "Bed",
+        "Dressing Table",
+        "Bed Set",
+        "Dinning Table"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price2": {
+      "type": "integer"
+    },
+    "Price3": {
+      "type": "integer"
+    },
+    "Price4": {
+      "type": "integer"
+    }
+  }
+}
